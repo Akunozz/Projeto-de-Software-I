@@ -222,12 +222,23 @@ function Quiz() {
 
   const percentageScore = ((score / questions.length) * 100).toFixed(2);
 
+  const getScoreMessage = () => {
+    if (percentageScore < 49) {
+      return "Você pode melhorar! Estude mais as perguntas no botão Saiba mais e tente novamente.";
+    } else if (percentageScore >= 50 && percentageScore < 76) {
+      return "Bom trabalho! Você está quase lá.";
+    } else {
+      return "Excelente! Você tem um ótimo conhecimento sobre o Geoparque de Caçapava do Sul.";
+    }
+  };
+
   return (
     <div className="quiz">
       {showScore ? (
         <div className="score-section">
           <p>Você acertou {score} de {questions.length} perguntas.</p>
           <p>Isso equivale a {percentageScore}% de acertos.</p>
+          <p>{getScoreMessage()}</p>
           <button onClick={handleRestartQuiz}>Reiniciar Quiz</button>
         </div>
       ) : (
@@ -238,7 +249,7 @@ function Quiz() {
             </div>
             <div className="question-text">{questions[currentQuestion].question}</div>
             {questions[currentQuestion].image && (
-              <img src={questions[currentQuestion].image} alt="Caçapava Geoparque Mundial da Unesco" />
+              <img src={questions[currentQuestion].image} alt="Geoparque de Caçapava do Sul" />
             )}
           </div>
           <div className="answer-section">
