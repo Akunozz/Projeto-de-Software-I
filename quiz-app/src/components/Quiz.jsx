@@ -24,8 +24,8 @@ const questions = [
   },
   {
     question: "Qual é a importância do Caçapava Geoparque Mundial da Unesco para a geoconservação?",
-    options: ["Preservação de recursos hídricos", "Conservação de formações geológicas e fósseis", "Desenvolvimento de atividades agrícolas", "Criação de reservas florestais"],
-    answer: "Conservação de formações geológicas e fósseis",
+    options: ["Preservação de recursos hídricos", "Conservação de formações geológicas", "Desenvolvimento de atividades agrícolas", "Criação de reservas florestais"],
+    answer: "Conservação de formações geológicas",
     image: "/images/p4.jpg",
     reference: "https://cacapavadosul.rs.leg.br/noticia/visualizar/id/4287/?geoparque-de-cacapava-do-sul-e-reconhecido-pela-unesco-como-patrimonio-geologico-mundial.html"
   },
@@ -35,13 +35,6 @@ const questions = [
     answer: "Ecoturismo e trilhas",
     image: "/images/p5.jpg",
     reference: "https://www.ufsm.br/pro-reitorias/pre/geoparque-cacapava"
-  },
-  {
-    question: "Quais são as principais rochas encontradas no Caçapava Geoparque Mundial da Unesco?",
-    options: ["Rochas ígneas", "Rochas metamórficas", "Rochas sedimentares", "Rochas vulcânicas"],
-    answer: "Rochas sedimentares",
-    image: "/images/p6.jpg",
-    reference: "https://www.geoparquecostoeselagunas.com/geoparque-cacapava/#:~:text=Os%20principais%20geoss%C3%ADtios%20s%C3%A3o%20as%20Pedras%20das%20Guaritas%2C,cient%C3%ADfico%20e%20que%20resultaram%20em%20fant%C3%A1stica%20beleza%20c%C3%AAnica."
   },
   {
     question: "Qual a importância do Caçapava Geoparque Mundial da Unesco para a educação científica?",
@@ -135,13 +128,6 @@ const questions = [
     reference: "https://cacapavadosul.rs.gov.br/pagina/id/2/?historia-do-municipio.html"
   },
   {
-    question: "Qual é a relevância das pinturas rupestres encontradas no Caçapava Geoparque Mundial da Unesco?",
-    options: ["Demonstra a presença de povos pré-históricos na região", "Ilustra a chegada dos colonizadores europeus", "Representa cenas de batalhas históricas", "Mostra a fauna local na era moderna"],
-    answer: "Demonstra a presença de povos pré-históricos na região",
-    image: "/images/20.jpg",
-    reference: "https://www.ufsm.br/pro-reitorias/pre/geoparque-cacapava"
-  },
-  {
     question: "Qual é o papel das comunidades locais na gestão do Caçapava Geoparque Mundial da Unesco?",
     options: ["Não possuem nenhum papel", "Participam ativamente na conservação e turismo sustentável", "São excluídas das decisões", "Focam apenas na agricultura"],
     answer: "Participam ativamente na conservação e turismo sustentável",
@@ -178,8 +164,8 @@ const questions = [
   },
   {
     question: "Qual é a importância histórica do Forte Dom Pedro II em Caçapava do Sul?",
-    options: ["Foi usado como residência oficial de governadores", "Foi uma importante fortificação militar projetado durante a Revolução Farroupilha", "Foi o local de assinatura do Tratado de Tordesilhas", "É conhecido por ser a maior fortaleza construída pelos portugueses na América"],
-    answer: "Foi uma importante fortificação militar projetado durante a Revolução Farroupilha",
+    options: ["Foi usado como residência oficial de governadores", "Foi uma importante fortificação militar projetado após a Revolução Farroupilha", "Foi o local de assinatura do Tratado de Tordesilhas", "É conhecido por ser a maior fortaleza construída pelos portugueses na América"],
+    answer: "Foi uma importante fortificação militar projetado após a Revolução Farroupilha",
     image: "/images/p26.jpg",
     reference: "https://cacapavadosul.rs.gov.br/turismo/visualizar/id/1006/?forte-de-d-pedro-ii.html"
   },
