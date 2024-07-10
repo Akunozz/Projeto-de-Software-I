@@ -228,7 +228,7 @@ function Quiz() {
     } else if (percentageScore >= 50 && percentageScore < 76) {
       return "Bom trabalho! Você está quase lá.";
     } else {
-      return "Excelente! Você tem um ótimo conhecimento sobre o Geoparque de Caçapava do Sul.";
+      return "Excelente! Você tem um ótimo conhecimento sobre o Caçapava Geoparque Mundial da UNESCO.";
     }
   };
 
